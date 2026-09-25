@@ -80,7 +80,6 @@ def simulate_charge(duration):
         cur_temp += duration * 0.25
         # Slow increases charge by 1% per minute
         cur_charge += duration
-    if cur_charge > 80
 
 
 def simulate_dead(duration):
@@ -127,6 +126,7 @@ def charge_time_needed(minutes):
 
 
 def check_health():
+    pass
 
 
 if __name__ == '__main__':
